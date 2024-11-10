@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/assets/images/woman-dog.png);
+    background-size: 900px auto; /* Définit la largeur de l'image à 600px et ajuste la hauteur automatiquement */
+    background-repeat: no-repeat;
+    background-position: right 50px; /* Décale l'image à droite de 50px */
+    background-color: $secondary-color;
+
+    &_wrapper_container {
+        width: 100%;
+        height: calc(100vh - 12rem);
+        display: flex;
+        align-items: center;
+    }
+    &_wrapper {
+        width: 50%;
+    }
+    &_main_title {
+        margin-bottom: 2rem;
+        color: $color-primary;
+    }
+    &_p {
+        margin-bottom: 4rem;
+    }
+}
