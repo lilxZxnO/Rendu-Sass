@@ -161,6 +161,18 @@ h1 {
 .card_body_price {
   font-weight: 700;
 }
+.card_body_category {
+  background-color: #003459;
+  padding: 0.4rem 0.7rem;
+  border-radius: 10rem;
+  color: #ffffff;
+  font-size: 1rem;
+  width: 39%;
+  margin: 0.7rem 0rem;
+}
+.card_body_text {
+  font-size: 1.4rem;
+}
 
 .banner {
   width: 100%;
