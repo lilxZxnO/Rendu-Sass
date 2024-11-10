@@ -2,6 +2,7 @@
     padding: 1rem;
     background-color: $color-white;
     border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     & > img {
         width: 100%;
     }
@@ -9,11 +10,11 @@
         &_title {
             font-size: 1.6rem;
             margin: 0.6rem 0rem;
-            margin-bottom: 0.7rem;
         }
         &_details {
             width: 100%;
             display: flex;
+            margin-bottom: 0.7rem;
             &_gender {
                 margin-right: 1rem;
                 font-size: 1.4rem;

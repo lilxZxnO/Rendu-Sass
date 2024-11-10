@@ -137,6 +137,7 @@ h1 {
   padding: 1rem;
   background-color: #ffffff;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 .card > img {
   width: 100%;
@@ -144,11 +145,11 @@ h1 {
 .card_body_title {
   font-size: 1.6rem;
   margin: 0.6rem 0rem;
-  margin-bottom: 0.7rem;
 }
 .card_body_details {
   width: 100%;
   display: flex;
+  margin-bottom: 0.7rem;
 }
 .card_body_details_gender {
   margin-right: 1rem;
@@ -159,6 +160,28 @@ h1 {
 }
 .card_body_price {
   font-weight: 700;
+}
+
+.banner {
+  width: 100%;
+  background-color: #F7DBA7;
+  background-repeat: no-repeat;
+}
+.banner_wrapper {
+  display: flex;
+  padding: 0rem 7rem;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner_title {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+  color: #003459;
+}
+.banner_p {
+  margin-bottom: 4rem;
 }
 
 /*# sourceMappingURL=main.css.map */
